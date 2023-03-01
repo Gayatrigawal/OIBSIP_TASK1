@@ -1,0 +1,163 @@
+body{
+  font-family: 'Montserrat';
+}
+h1{
+
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h5,h6{
+  font-family: "Montserrat";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#title{
+  background-color:#724060;
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+  /* top left and right  bottom */
+}
+
+.navbar{
+  padding:0 0 4.5rem;/* padding:0 0 4.5rem; top left right bottom */
+}
+/* navigation bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0%; /* top right left bottom*/
+}
+/* title img */
+.title-image{
+  width: 60%;
+position: absolute;
+right: 30%;
+}
+.rotate{
+  transform: rotate(25deg);/*here we give class rotate to the img and then use this transform to rotate the img*/
+}
+/* features section */
+
+#features{
+  padding: 7% 15%;
+   /*top and bottom left right*/
+   /* zindex is used for giving the position and overlapping the objects on the screen */
+   /* positioning to the object is neccesary */
+   background-color: #fff;
+   z-index: 1;
+   position: relative;
+}
+/* z index- it is feature to set object on top of each other like
+if z =1 then it will be on top of every element
+z=0 then it will be at the middle of the element
+z=-1 then it will be at the below of every object  */
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  background-color: #f8e7e7;
+}
+.icon{
+  color: #724060;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color: #a070a1;/*icon:hover use for showing another color when we tap on that button*/
+}
+/* testimonial section */
+#testimonials {
+
+  text-align: center;
+  background-color: #724060;
+  color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #f8e7e7;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+  color: #200f21;
+  background-color: #724060;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+@media (max-width:1028px){
+  .title-image{
+    position: static;
+
+  }
+  .rotate{
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* @media is used for if we want to print the webpage then while printing it what should be the changes in it define by media
+the changes written in media is execute while printing the webpage. */
+#cta{
+  background-color: #f8e7e7;
+  text-align: center;
+  padding: 7% 15%;
+  color: #724060;
+
+font-weight: bold;
+
+}
+.ctah{
+   font-family: "Montserrat";
+   line-height: 1.5;
+   font-size: 3.5rem;
+}
+#footer{
+  background-color:#724060 ;
+  color: #8f8f8f;
+  text-align: center;
+  padding: 7% 15%;
+
+  line-height: 1.5;
+
+}
+.social-icon{
+  margin: 20px 10px;
+  background-color :#f8e7e7; 
+}
+.ft{
+    line-height: 1.5;
+
+}
+/* priority - id>class>selector */
